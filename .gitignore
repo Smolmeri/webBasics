@@ -6,7 +6,7 @@
 .idea
 *.iml
 out
-gen### macOS template
+gen### macOS template§
 # General
 .DS_Store
 .AppleDouble
