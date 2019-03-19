@@ -34,4 +34,8 @@ Use 'clone or download' button to download this repo as zip.
    * The new `<article>` elements should containt the same elements as the existing `<article>` element
    * Select `<main>`element with DOM-methods
    * Use DOM methods (createElement, appendChild) or innerHTML property to add the new `<article>` elements to `<main>`element.
+      * put title to `<h2>`, `<img>` element's alt attribute
+      * put caption to `<caption>`
+      * put filename to `<img>` element's src attribute
+      * put description to `<p>` element 
 
