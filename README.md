@@ -14,7 +14,7 @@ Use 'clone or download' button to download this repo as zip.
    * Select `<main>` element with [DOM-methods](https://www.w3schools.com/js/js_htmldom_elements.asp)
    * Use [innerHTML](https://www.w3schools.com/js/js_htmldom_html.asp) property to add the new `<article>` element to `<main>`element.
    * Note that you need to use `+=` operator to add.
-   * To make a multiline string you need to use + operator or create a [template string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+   * If you want to make a multiline string for the HTML, you need to use + operator or create a [template string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
    
 ### Task C, [JavaScript HTML DOM Elements](https://www.w3schools.com/js/js_htmldom_nodes.asp)
 1. Create new file task-c.html
