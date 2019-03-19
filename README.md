@@ -30,7 +30,7 @@ Use 'clone or download' button to download this repo as zip.
 1. Copy the content of index.html and paste it to task-d.html
 1. Change the src of `<script>` element to main-d.js
 1. Delete the `<article>` element from `<main>` in your editor.
-1. Add `<article>` elements to `<main>` by iterating picArray with for loop.
+1. Add `<article>` elements to `<main>` by iterating picArray with for loop (main-d.js).
    * The new `<article>` elements should containt the same elements as the existing `<article>` element
    * Select `<main>`element with DOM-methods
    * Use DOM methods (createElement, appendChild) or innerHTML property to add the new `<article>` elements to `<main>`element.
