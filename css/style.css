@@ -1,0 +1,56 @@
+html {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0ddd5;
+}
+
+.container {
+    width: 50rem;
+    margin: auto;
+}
+
+header {
+    background-color: #3ea9dd;
+    padding: 1rem;
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+article {
+    width: 30%;
+    padding: 1rem;
+}
+
+article header {
+    background-color: #fff;
+    padding: 0 0 1rem 0;
+    color: #000;
+}
+
+article h2 {
+    margin: 0;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+footer {
+    background-color: #3ea9dd;
+    text-align: center;
+    padding: 1rem;
+}
