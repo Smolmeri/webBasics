@@ -1,3 +1,4 @@
+'use strict';
 const picArray = [
   {
     'title': 'Title 1',
@@ -58,3 +59,34 @@ const picArray = [
 ];
 
 // Put code of task D here
+const main = document.querySelector('main');
+
+for(let i = 0; i < picArray.length; i++) {
+  
+  const img = document.createElement('img');
+  img.src = `${picArray[i].filename}`;
+  img.alt = 'title';
+
+  const caption = document.createElement('figcaption');
+  caption.innerHTML = `${picArray[i].caption}`;
+
+  const figure = document.createElement('figure');
+  figure.appendChild(img);
+  figure.appendChild(caption);
+
+  const otsikko = document.createElement('h2');
+  otsikko.innerHTML = (`${picArray[i].title}`);
+
+  const header = document.createElement('header');
+  header.appendChild(otsikko);
+
+  const kappale = document.createElement('p');
+  kappale.innerHTML = (`${picArray[i].description}`);
+
+  const artikkeli = document.createElement('article');
+  artikkeli.appendChild(otsikko);
+  artikkeli.appendChild(figure);
+  artikkeli.appendChild(kappale);
+
+  main.appendChild(artikkeli);
+};
