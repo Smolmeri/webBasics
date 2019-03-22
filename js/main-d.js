@@ -75,7 +75,7 @@ for(let i = 0; i < picArray.length; i++) {
   figure.appendChild(caption);
 
   const otsikko = document.createElement('h2');
-  otsikko.innerHTML = (`${picArray[i].title}`);
+  otsikko.innerHTML = `${picArray[i].title}`;
 
   const header = document.createElement('header');
   header.appendChild(otsikko);
