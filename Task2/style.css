@@ -1,0 +1,18 @@
+body {
+    background-image: url('/img/kumiko-shimizu-731627-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flexContainer {
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#balloon {
+    margin: 2px 2px;
+    padding: 10px 10px;
+    font-size: 10px;
+}
