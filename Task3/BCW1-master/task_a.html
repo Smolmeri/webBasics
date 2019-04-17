@@ -19,7 +19,22 @@
     <h1>Form validation HTML5</h1>
 
     <form>
-        <!-- your input elements here -->
+        <p>Firstname <span style="color: red;">*</span></p>
+        <input type="text" name="firstName" required>
+        <p>Lastname <span style="color: red;">*</span></p>        
+        <input type="text" name="lastName" required>
+        <p>Email</p>
+        <input type="email" name="email">
+        <p>Phone number</p>
+        <input type="tel" name="phoneNumber" pattern="[\+358]\d{9}">
+        <p>Address</p>
+        <input type="text" name="address">
+        <p>Postal code</p>
+        <input type="tel" name="postalCode" pattern="\d{5}">
+        <p>Password <span style="color: red;">*</span></p>
+        <input type="password" name="password" required>
+        
+        <input type="submit" name="submit">
     </form>
 
     <script src="js/main.js"></script>
